@@ -1,0 +1,70 @@
+:root {
+    --primary-text-color:#434455;
+    --title-text-color:#2e2f42;
+    --accent-text-color:#4D5AE5;
+    --hero-text-color:#FFFFFF;
+    --hover-color:#404BBF;
+    --primary-bg-color:#ffffff;
+    --secondary-bg-color:#F4F4FD;
+
+}
+
+
+body {
+background-color: var(--primary-bg-color);
+color:var(--primary-text-color);
+}
+
+.logo {
+    color: var(--title-text-color);
+}
+
+/*Шaпка header*/
+.site-nav a {
+    color: var(--title-text-color);
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+    color: var(--hover-color);
+}
+
+.site-nav .current {
+    color: var(--hover-color);
+}
+
+.site-addres {
+color: var(--primary-text-color);
+}
+
+.site-addres a:hover, 
+.site-addres a:focus {
+    color: var(--hover-color);
+}
+
+/*Кнопки button*/
+.button {
+    color: var(--hero-text-color);
+    background-color: var(--accent-text-color);
+}
+
+.button.primary {
+    color: var(--hero-text-color);
+    background-color: var(--accent-text-color)
+}
+
+.button.secondary {
+    color: var(--accent-text-color);
+    background-color: var(--secondary-bg-color);
+}
+
+ul{
+    list-style: none;
+}
+/*Кнопкам задана властивість cursor зі значенням pointer*/
+
+
+
+
+
+
